@@ -62,7 +62,7 @@ Criterio de salida:
 
 # Fase 1 - Prototipo jugable de Chipotle
 
-Estado: PENDIENTE
+Estado: EN_PROGRESO <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
 
 Objetivo:
 
@@ -71,24 +71,28 @@ completos.
 
 Tareas:
 
-- [ ] Crear o preparar prefab de Chipotle.
-- [ ] Implementar movimiento horizontal.
-- [ ] Implementar salto.
-- [ ] Implementar carrera.
-- [ ] Configurar deteccion de suelo.
-- [ ] Configurar colisiones.
-- [ ] Configurar camara.
-- [ ] Crear escena de pruebas.
-- [ ] Integrar sprite provisional o definitivo.
+- [x] Crear o preparar prefab de Chipotle. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- [x] Implementar movimiento horizontal. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- [x] Implementar salto. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- [x] Implementar carrera. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- [x] Configurar deteccion de suelo. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- [x] Configurar colisiones. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- [x] Configurar camara. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- [x] Crear escena de pruebas. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- [x] Integrar sprite provisional o definitivo. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
 - [ ] Crear animacion Idle.
 - [ ] Crear animacion de caminar.
 - [ ] Conectar Animator con movimiento.
-- [ ] Probar controles y fisica.
+- [x] Probar controles y fisica (validacion manual de Eber, 07/10/2026). <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+
+Primera unidad validada manualmente por Eber el 07/10/2026 en Unity 6000.3.23f1: escena, compilacion/importacion y Console en cero; A/D, flechas, Shift izquierdo y Espacio funcionan; sin doble salto observado, aterrizaje/colisiones, orientacion y camara correctos. Sensacion satisfactoria; sin ajustes necesarios por ahora. Se conserva el placeholder provisional. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
 
 Criterio de salida:
 
 Chipotle puede desplazarse, correr y saltar de forma estable en una
 escena de pruebas.
+
+Criterio jugable satisfecho segun la validacion manual reportada. Fase 1 permanece EN_PROGRESO: faltan Idle, caminar y conexion con Animator, con su posterior validacion. No iniciar esa unidad ni otra fase sin autorizacion. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
 
 ---
 
