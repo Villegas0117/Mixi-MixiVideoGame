@@ -18,7 +18,7 @@ Estados posibles:
 
 # Fase 0 - Preparacion y arquitectura
 
-Estado: EN_PROGRESO
+Estado: COMPLETADA <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
 
 Objetivo:
 
@@ -32,14 +32,24 @@ Tareas:
 - [x] Crear documentacion de direccion de arte.
 - [x] Crear Skills iniciales.
 - [x] Crear memoria persistente del proyecto.
-- [ ] Configurar `.gitignore`.
-- [ ] Inicializar o verificar repositorio Git.
-- [ ] Crear punto de restauracion inicial.
-- [ ] Auditar proyecto Unity existente.
-- [ ] Revisar Packages y ProjectSettings relevantes.
-- [ ] Definir arquitectura tecnica inicial.
-- [ ] Actualizar `ARQUITECTURA.md`.
-- [ ] Confirmar que Unity abre el proyecto sin errores.
+- [x] Configurar `.gitignore`. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- [x] Inicializar o verificar repositorio Git. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- [x] Crear punto de restauracion inicial. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- [x] Auditar proyecto Unity existente. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- [x] Revisar Packages y ProjectSettings relevantes. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- [x] Definir arquitectura tecnica inicial. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- [x] Actualizar `ARQUITECTURA.md`. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- [x] Confirmar que Unity abre el proyecto sin errores (validacion manual de Eber: apertura, SampleScene, Console y entrada/salida de Play). <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+
+### Resultado de auditoria - 07/10/2026
+
+Git y .gitignore ya estaban preparados: base limpia 45e0da0. Auditoria de archivos, Packages/ProjectSettings y arquitectura inicial completadas; no equivalen a validacion del editor. Las tareas de documentacion, Skills y carpetas cuentan como preparacion, no como gameplay implementado. Las referencias se verificaron por sus rutas, sin analizar imagenes. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+
+Cierre de Fase 0: validacion manual reportada por Eber el 07/10/2026 con Unity 6000.3.23f1 y SampleScene. Console: 0 errores, 0 warnings y 0 mensajes; Play durante varios segundos y salida correcta, sin errores. Tras cerrar Unity no hubo cambios versionados adicionales, segun Eber y la consulta actual de Git. Evidencia detallada en ESTADO_ACTUAL.md; el asistente no repitio la prueba. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+
+Criterios satisfechos: apertura correcta (prueba manual), Git configurado y base recuperable 45e0da0 (inspeccion), arquitectura inicial documentada (ARQUITECTURA.md) y ausencia de errores bloqueantes conocidos en la validacion realizada. Fase 0 COMPLETADA. Las observaciones de la auditoria quedan como revisiones no bloqueantes; no se certifican builds ni validacion exhaustiva de paquetes/referencias. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+
+Siguiente accion: esperar autorizacion explicita para Fase 1, que permanece PENDIENTE. No se crea commit de cierre ni se hace push por instruccion del usuario; el punto recuperable inicial se conserva y la documentacion queda sin commit. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
 
 Criterio de salida:
 

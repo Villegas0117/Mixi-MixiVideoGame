@@ -1,34 +1,78 @@
 # Arquitectura tecnica de Mixi-Mixi
 
-## Estado
+## Estado y alcance de la auditoria
 
-PENDIENTE DE AUDITORIA INICIAL.
+07/10/2026. Auditoria estatica completada. La base real se describe abajo; la arquitectura propuesta NO esta implementada. Fase 0 COMPLETADA tras la validacion manual del editor reportada por Eber el 07/10/2026 (evidencia en ESTADO_ACTUAL.md). No se autoriza iniciar Fase 1. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
 
-El proyecto Unity ya existe, pero la arquitectura definitiva no debe
-definirse sin inspeccionar primero su contenido real.
+## Base real verificada
 
-GPT-6 Astra debera analizar el proyecto existente y proponer una
-arquitectura adecuada al alcance definido en `DISENO_JUEGO.md`.
+- Unity 6000.3.23f1, revision 09d2ecc7fb28, segun ProjectSettings/ProjectVersion.txt; coincide con el motor LTS definido en el diseno. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Editor en modo 2D, serializacion Force Text y Visible Meta Files. Enter Play Mode Options esta habilitado con Domain Reload desactivado: los futuros estados estaticos y suscripciones deben reiniciarse correctamente al repetir Play. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- URP 17.3.0 con Renderer 2D. Los seis niveles de QualitySettings apuntan a Assets/Settings/UniversalRP.asset, que referencia Renderer2D.asset. Calidad actual y Standalone: Ultra. GraphicsSettings tiene m_CustomRenderPipeline vacio, pero los overrides de calidad seleccionan URP; no confundirlo con Built-in activo. Si se elimina un override, revisar el fallback global. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- UniversalRenderPipelineGlobalSettings referencia DefaultVolumeProfile. Escala de render 1, MSAA 1 (sin multisampling), espacio de color Linear. SampleScene se ejecuto sin errores segun la prueba manual reportada; no se realizo una validacion visual exhaustiva del render. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Input System 1.20.0 exclusivo (activeInputHandler: 1). EditorBuildSettings registra Assets/Settings/InputSystem_Actions.inputactions como acciones del proyecto. InputManager.asset conserva ejes legacy, pero eso no activa el sistema antiguo. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Fisica 2D: gravedad (0, -9.81), paso fijo 0.02 s, matriz de colisiones sin filtrar. No hay tags, layers ni sorting layers propios del juego. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- PlayerSettings conserva DefaultCompany y com.DefaultCompany.2D-URP; producto Mixi-Mixi2D, resolucion nominal 1920x1080, resolucion nativa habilitada. No hay backend Standalone explicito en el bloque scriptingBackend ni perfiles de build propios en Assets. Windows/Linux siguen siendo objetivos, no builds probados. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
 
-## Principios iniciales
+## Assets y escenas existentes
 
-- Reutilizar sistemas entre los tres niveles.
-- Separar responsabilidades.
-- Evitar scripts monoliticos.
-- Evitar sobreingenieria.
-- Utilizar componentes 2D de Unity.
-- Priorizar una version jugable y estable.
-- No reemplazar sistemas existentes funcionales sin justificacion.
+- Hay 8 archivos de contenido (sin contar .meta): SampleScene.unity y siete archivos en Settings (dos configuraciones URP, Renderer2D, DefaultVolumeProfile, InputSystem_Actions, Lit2DSceneTemplate y su escena URP2DSceneTemplate). <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Assets/Scenes/SampleScene.unity: unica escena habilitada en EditorBuildSettings. Contiene Main Camera ortografica con AudioListener/datos URP y Global Light 2D; no contiene jugador ni escenario jugable. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Assets/Settings/Scenes/URP2DSceneTemplate.unity: escena fuente de Lit2DSceneTemplate, fuera de la lista de build. Comparte los mismos objetos basicos con SampleScene; las diferencias observadas son de serializacion y ajustes de iluminacion, no gameplay. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- El contenido es consistente con la plantilla Lit 2D (URP), no con sistemas propios de Mixi-Mixi. No hay .cs, .asmdef, .prefab, animaciones, sprites de produccion ni grafos de gameplay en Assets. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Estructura preparada: Animaciones; Arte/{Enemigos,Escenarios,Interfaz,Jefes,Objetos,Personajes}; Audio/{Efectos,Musica}; Datos; Escenas; Prefabs/{Enemigos,Interfaz,Jefes,Objetos,Personajes}; Scripts/{Combate,Enemigos,Guardado,Interfaz,Inventario,Jefes,Jugador,Niveles,Nucleo}. Son carpetas sin contenido de produccion; existen tambien Images, Scenes y Settings/Scenes. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Comprobacion local de Assets: sin .meta faltantes, huerfanos ni GUID duplicados. Esto no certifica que Unity resuelva todas las referencias de paquetes. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
 
-## Pendiente
+## Paquetes y reutilizacion
 
-Despues de la auditoria inicial documentar aqui:
+- manifest.json declara 56 dependencias; packages-lock.json contiene 71 entradas. Todas las dependencias directas coinciden en version y depth 0; no faltan entradas de dependencias transitivas. Es coherencia estatica, no prueba de descarga/importacion o compatibilidad. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Herramientas 2D: Animation 13.0.6, Aseprite 3.0.2, PSD Importer 12.0.2, SpriteShape 13.0.0, Tilemap Extras 6.0.3, Sprite/Tilemap 1.0.0 y Tooling 1.0.4. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Disponibles para reutilizar antes de crear alternativas: Input System, URP 2D, uGUI 2.0.0, Timeline 1.8.13 y Test Framework 1.6.0. No se necesitan dependencias nuevas para esta arquitectura inicial; Cinemachine no esta declarado. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Tambien figuran Visual Scripting 1.9.12, Multiplayer Center 1.0.1, Version Control (collab-proxy) 2.13.6, integraciones Rider/Visual Studio y SDK/toolchain Linux 1.1.0. No prueban uso real ni soporte de build validado; Multiplayer Center no implica un juego multijugador. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- com.unity.pipeline 0.8.0-exp.1 es experimental y distinto de com.unity.render-pipelines.universal. Revisar su necesidad/compatibilidad durante la validacion; no desinstalar ni actualizar paquetes durante esta auditoria. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
 
-- sistemas principales;
-- responsabilidades;
-- dependencias;
-- flujo de datos;
-- estructura de prefabs;
-- estrategia de escenas;
-- estrategia de datos;
-- estrategia de guardado.
+## Inconsistencias y recomendaciones sin aplicar
+
+- Scenes frente a Escenas: reservar Assets/Escenas para escenas propias futuras, segun DEC-001. Conservar SampleScene como base de comprobacion por ahora. Una migracion posterior debe hacerse en Unity preservando GUID/.meta y revisando la lista de build. Settings/Scenes es soporte de plantilla, no un cuarto nivel. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Images esta vacia; utilizar Arte para nuevos recursos de produccion, segun DEC-002. No eliminar carpetas ni renombrar Settings por motivos cosmeticos. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Las acciones Player/UI son genericas: Move es 2D con WASD/flechas, Jump usa Espacio, Sprint Shift izquierdo e Interact E con interaccion Hold. Attack usa Enter/raton, no J; faltan acciones especificas para K (pulsar/cargar), L y B. UI/Cancel generico no implementa pausa con Esc. Look/Crouch/Previous/Next no son requisitos del juego. Adaptar el asset existente en fases autorizadas; no habilitar legacy ni duplicar sistemas de input. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Lit2DSceneTemplate declara una dependencia con GUID b3ab972b21db85d48ade9657efdd4771 sin .meta correspondiente en Assets. Puede pertenecer a contenido externo/de plantilla; queda pendiente resolverla en Unity. No se declara referencia rota confirmada ni se borra el recurso. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Revisar en el editor identidad del producto, perfiles/modulos Windows/Linux, fallback de Graphics y paquetes experimentales. Las defaults no constituyen por si mismas errores reproducidos. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+
+## Arquitectura minima propuesta (a implementar por fases)
+
+### Criterios y dependencias
+
+- Composicion con MonoBehaviour pequenos, referencias serializadas y eventos C# locales para notificar cambios. Evitar un gestor monolitico, service locator, bus global, contenedor de inyeccion, ECS o jerarquias de herencia profundas. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Mantener las carpetas preparadas. Crear clases y subcarpetas solo cuando su funcionalidad corresponda a la fase autorizada; no generar esqueletos de todos los sistemas ahora. Una assembly de gameplay inicial es suficiente; separar pruebas/editor solo cuando existan. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Gameplay depende de fisica, entrada abstraida en un componente y datos; no depende del HUD ni de escritura de archivos. El HUD observa estado; el guardado recibe una instantanea de datos, no GameObjects. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+
+### Componentes y responsabilidades futuras
+
+- Jugador (Fase 1): EntradaJugador lee acciones; MovimientoJugador aplica caminar/correr/saltar mediante Rigidbody2D/Collider2D y deteccion de suelo. Recoger intenciones de entrada y consumir fisica en FixedUpdate, sin perder pulsaciones de salto. Presentacion mediante SpriteRenderer/Animator separada de reglas; camara ortografica independiente del jugador, con seguimiento minimo a validar entonces. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Combate (Fase 2): CombateJugador coordina garra, bola de pelo cargable y lanzamiento; hitboxes/proyectiles detectan impactos. SistemaVida recibe dano y notifica muerte, reutilizado por Chipotle, enemigos y jefes. Eliminar dependencias de combate hacia UI/guardado. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Recursos e interaccion (Fase 2): SistemaComida controla consumo/penalizaciones; InventarioJugador mantiene monedas, consumibles, arrojables y equipo. InteraccionJugador identifica el objeto y ejecuta una interaccion comun sencilla. Power-ups modifican temporalmente velocidad/dano sin modificar las definiciones compartidas. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Enemigos/jefes (desde Fase 3): controladores locales con estados simples y componentes compartidos de vida/dano/movimiento cuando corresponda. Ataques y fases particulares por jefe; no construir un framework de IA general. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Niveles (Fases 2-3): GestorNivel mantiene objetivo, pistas, checkpoint y condicion de salida. Contenido y referencias de cada escena configuran el flujo; no copiar sistemas para cada uno de los tres niveles. El jefe informa derrota, y el nivel decide desbloqueos/transicion. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Interfaz (Fase 2 y posteriores): prefab HUD con uGUI observa Vida, Comida, monedas, equipo y objetivo. Pausa, mochila y derrota son paneles sobre la escena. Deshabilitar acciones de gameplay cuando corresponda y conservar navegacion UI; definir explicitamente si mochila detiene el tiempo al implementar, pues el diseno solo exige un panel superpuesto. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Flujo general/guardado (Fase 4): GestorPartida coordina menu, carga, pausa y transiciones; GestorGuardado solo serializa/lee datos locales. Un unico objeto persistente para flujo y datos de sesion cuando sea necesario, sin convertir cada sistema en singleton. Jugador, enemigos y HUD pertenecen a su escena. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Narrativa (Fase 7): aprovechar Timeline/Animator existentes si bastan para las cinematicas inicial/final; no introducir un motor narrativo general. Piyu sigue siendo no jugable. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+
+### Prefabs y escenas propuestos
+
+- Prefab Chipotle compartido por pruebas y tres niveles, con raiz de fisica/control y presentacion visual separada. Anadir combate/recursos progresivamente, no tres versiones de jugador. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Prefabs reutilizables de enemigos, jefes, objetos, proyectiles, checkpoint y HUD. Usar variantes solo para diferencias reales; compartir vida/dano, no forzar que todos los jefes tengan los mismos ataques. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Escena PruebasJugador en Fase 1; escenas propias futuras MenuPrincipal, Nivel_01_Barrio, Nivel_02_Iglesia y Nivel_03_Almacen en Assets/Escenas. Son nombres propuestos, no archivos creados. Solo tres niveles principales. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Cargar un nivel a la vez con SceneManager; cada escena contiene terreno/colisiones, puntos de aparicion, enemigos, objetivos y camara. Sin streaming ni carga aditiva obligatoria. Cinematicas/creditos pueden ser secuencias/paneles, sin exigir escenas adicionales desde ahora. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+
+### Datos, flujo y guardado propuestos
+
+- Ajustes de movimiento/combate en campos serializados de componentes inicialmente. ScriptableObject en Datos solo para definiciones reutilizadas (objetos, estadisticas, power-ups) que lo justifiquen; estado de partida separado y nunca persistido alterando esos assets. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Flujo principal: Input System -> EntradaJugador -> movimiento/combate/interaccion -> estado local -> eventos de cambio -> HUD. Pista/jefe/checkpoint -> GestorNivel -> datos de sesion/transicion; en Fase 4, esos hitos solicitan guardado. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Proponer un archivo JSON local versionado con JsonUtility en Application.persistentDataPath. Persistir nivel/checkpoint por identificadores estables, progreso/pistas/jefes y los datos de recursos/inventario necesarios para continuar. No serializar referencias de escena, Animator, Rigidbody2D ni ScriptableObject. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Guardado solo al comenzar nivel, alcanzar checkpoint y derrotar jefe; sin guardado manual ni online. Escritura temporal y reemplazo seguro; manejar archivo ausente/corrupto/version no compatible sin afirmar que Continuar es valido. Antes de implementar, concretar que recursos se restauran tras derrota y el estado de objetos recogidos para evitar duplicaciones; el diseno no fija esas reglas. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+- Primero comprobar movimiento en la escena de pruebas; despues reutilizacion y estados en Fase 2; en Fase 4 probar cierre/reapertura y checkpoints. No confundir paquete de tests instalado con pruebas existentes o aprobadas. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
+
+## Limites de validacion
+
+La auditoria del asistente fue estatica. Posteriormente Eber reporto validacion manual satisfactoria en Unity 6000.3.23f1: apertura del proyecto, carga de SampleScene, Console en cero y entrada/salida de Play sin errores; no hubo cambios versionados adicionales al cerrar Unity. Esto satisface la comprobacion basica del editor para cerrar Fase 0, no una prueba exhaustiva de compilacion por plataforma, render, controles, referencias externas o paquetes. Tests y builds siguen sin validar. Las observaciones anteriores permanecen como revisiones no bloqueantes, no como errores confirmados ni resueltos. El asistente no repitio la prueba, no recorrio Library, Temp, Logs ni UserSettings y no analizo imagenes de referencia. <!-- project: path:/run/media/eber/PopOS/UnityProjectsUTP/Mixi-Mixi2D -->
