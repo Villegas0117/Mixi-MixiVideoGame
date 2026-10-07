@@ -1,0 +1,85 @@
+# ============================================================
+# Mixi-Mixi - Unity
+# ============================================================
+
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# User-specific Unity settings
+UserSettings/
+
+# Asset Store tools
+Assets/AssetStoreTools*
+
+# IDE / Visual Studio / VS Code
+.vs/
+.vscode/
+.idea/
+
+# Generated project files
+*.csproj
+*.sln
+*.slnx
+*.unityproj
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity generated meta debugging files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash reports
+sysinfo.txt
+
+# Builds / executables
+*.apk
+*.aab
+*.unitypackage
+
+# OS generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*~
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code local history/extensions
+.history/
+
+# ============================================================
+# IMPORTANT:
+# Do NOT ignore:
+#
+# Assets/
+# Packages/
+# ProjectSettings/
+# docs/
+# skills/
+#
+# These are part of the Mixi-Mixi project.
+# ============================================================
+
