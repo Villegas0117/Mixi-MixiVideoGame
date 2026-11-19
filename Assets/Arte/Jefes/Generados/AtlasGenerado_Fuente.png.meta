@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 2c5ec37ba30f8f0b0a4e8c8275284ce5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4965758790673848631
+    second: AtlasGenerado_Fuente_0
+  - first:
+      213: -1518374855645624370
+    second: AtlasGenerado_Fuente_1
+  - first:
+      213: 5270193987108105949
+    second: AtlasGenerado_Fuente_2
+  - first:
+      213: -1785745865059856413
+    second: AtlasGenerado_Fuente_3
+  - first:
+      213: 4684995981098571096
+    second: AtlasGenerado_Fuente_4
+  - first:
+      213: -2786352465428871447
+    second: AtlasGenerado_Fuente_5
+  - first:
+      213: -2028880415766288886
+    second: AtlasGenerado_Fuente_6
+  - first:
+      213: 4710614027921680403
+    second: AtlasGenerado_Fuente_7
+  - first:
+      213: -7464629426085944702
+    second: AtlasGenerado_Fuente_8
+  - first:
+      213: 7724621303341779994
+    second: AtlasGenerado_Fuente_9
+  - first:
+      213: 8751245406804904757
+    second: AtlasGenerado_Fuente_10
+  - first:
+      213: 519735931838560367
+    second: AtlasGenerado_Fuente_11
+  - first:
+      213: 9044136355509264095
+    second: AtlasGenerado_Fuente_12
+  - first:
+      213: 1047297997293009280
+    second: AtlasGenerado_Fuente_13
+  - first:
+      213: 8975054090651533215
+    second: AtlasGenerado_Fuente_14
+  - first:
+      213: 4402894310099055723
+    second: AtlasGenerado_Fuente_15
+  - first:
+      213: -5103563825108965873
+    second: AtlasGenerado_Fuente_16
+  - first:
+      213: 3638554140539812955
+    second: AtlasGenerado_Fuente_17
+  - first:
+      213: 3751952967727044912
+    second: AtlasGenerado_Fuente_18
+  - first:
+      213: -1531828822346658800
+    second: AtlasGenerado_Fuente_19
+  - first:
+      213: -2646354455126921760
+    second: AtlasGenerado_Fuente_20
+  - first:
+      213: 84706368929870500
+    second: AtlasGenerado_Fuente_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 525
+        width: 481
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6ac9980b4161bb0800000000000000
+      internalID: -4965758790673848631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_1
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 898
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec78b5d0d16adeae0800000000000000
+      internalID: -1518374855645624370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 467
+        width: 513
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde6af2328d732940800000000000000
+      internalID: 5270193987108105949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_3
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 915
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef0cf5d891c737e0800000000000000
+      internalID: -1785745865059856413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_4
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 899
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855538bc503740140800000000000000
+      internalID: 4684995981098571096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_5
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 471
+        width: 530
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e604170233e459d0800000000000000
+      internalID: -2786352465428871447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 674
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06e086e208f7d3e0800000000000000
+      internalID: -2028880415766288886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_7
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 613
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3186e3020867f5140800000000000000
+      internalID: 4710614027921680403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 582
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2822836161f486890800000000000000
+      internalID: -7464629426085944702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 481
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c0a1a062e533b60800000000000000
+      internalID: 7724621303341779994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_10
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 493
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b00e6d45ba27970800000000000000
+      internalID: 8751245406804904757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_11
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 503
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f687e3a8319763700800000000000000
+      internalID: 519735931838560367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_12
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 455
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde5352f81a338d70800000000000000
+      internalID: 9044136355509264095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_13
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 443
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089b0aecaffb88e00800000000000000
+      internalID: 1047297997293009280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_14
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 461
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f7331c42ccd8c70800000000000000
+      internalID: 8975054090651533215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_15
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 17
+        width: 513
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64fa092c093a1d30800000000000000
+      internalID: 4402894310099055723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_16
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 453
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06a8dbadbf7c29b0800000000000000
+      internalID: -5103563825108965873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_17
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 431
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5cf6e286bdbe7230800000000000000
+      internalID: 3638554140539812955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_18
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 0
+        width: 536
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039d75f685d911430800000000000000
+      internalID: 3751952967727044912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_19
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 15
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c82535dc9ddbae0800000000000000
+      internalID: -1531828822346658800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_20
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 15
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed2360e4a2464bd0800000000000000
+      internalID: -2646354455126921760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasGenerado_Fuente_21
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 19
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a237466effec2100800000000000000
+      internalID: 84706368929870500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AtlasGenerado_Fuente_0: -4965758790673848631
+      AtlasGenerado_Fuente_1: -1518374855645624370
+      AtlasGenerado_Fuente_10: 8751245406804904757
+      AtlasGenerado_Fuente_11: 519735931838560367
+      AtlasGenerado_Fuente_12: 9044136355509264095
+      AtlasGenerado_Fuente_13: 1047297997293009280
+      AtlasGenerado_Fuente_14: 8975054090651533215
+      AtlasGenerado_Fuente_15: 4402894310099055723
+      AtlasGenerado_Fuente_16: -5103563825108965873
+      AtlasGenerado_Fuente_17: 3638554140539812955
+      AtlasGenerado_Fuente_18: 3751952967727044912
+      AtlasGenerado_Fuente_19: -1531828822346658800
+      AtlasGenerado_Fuente_2: 5270193987108105949
+      AtlasGenerado_Fuente_20: -2646354455126921760
+      AtlasGenerado_Fuente_21: 84706368929870500
+      AtlasGenerado_Fuente_3: -1785745865059856413
+      AtlasGenerado_Fuente_4: 4684995981098571096
+      AtlasGenerado_Fuente_5: -2786352465428871447
+      AtlasGenerado_Fuente_6: -2028880415766288886
+      AtlasGenerado_Fuente_7: 4710614027921680403
+      AtlasGenerado_Fuente_8: -7464629426085944702
+      AtlasGenerado_Fuente_9: 7724621303341779994
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

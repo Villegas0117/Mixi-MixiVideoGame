@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5623886758887784562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7237910221332016016}
+  - component: {fileID: 2626205890866493627}
+  m_Layer: 0
+  m_Name: HUD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7237910221332016016
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5623886758887784562}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2626205890866493627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5623886758887784562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 833c35332567ddd16af1361bc4843b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InterfazPartida
+  nivel: {fileID: 0}
+  retratoChipotle: {fileID: 2800000, guid: 927705a4ed9a6c3e2a5bba745fedda60, type: 3}
+  retratoPiyu: {fileID: 2800000, guid: 6380d8fc040c3d91db26dc307ce4ffb6, type: 3}
+  iconoVida: {fileID: 2800000, guid: b0082b795504d334d81a5c986c411e94, type: 3}
+  iconoComida: {fileID: 2800000, guid: acccc27e8d25676589fcc8c48408b520, type: 3}
+  iconoMoneda: {fileID: 2800000, guid: b7d9ee29714ef145f9b325f47c97bf6b, type: 3}
+  iconoRopa: {fileID: 2800000, guid: 62f28105e664c8bf3841cd52e7464884, type: 3}
+  iconoVelocidad: {fileID: 2800000, guid: 7531479d121825044abf9e58338d52ee, type: 3}
+  iconoFuerza: {fileID: 2800000, guid: 55650938d6434976883ca4d49a35dc39, type: 3}
+  fondoMenu: {fileID: 2800000, guid: 178f7d7190e1358efbaf3b8cba6d959f, type: 3}
+  escenaChipotle: {fileID: 2800000, guid: f498c528b0b5883ab9378dbb7a084c9a, type: 3}
+  escenaPiyuNormal: {fileID: 2800000, guid: 8dc0c70e8dea3cf4aad709b934e389c6, type: 3}
+  escenaPiyuAsustada: {fileID: 2800000, guid: 62431d1ba9cd75344b662aa0c1a63274, type: 3}
+  escenaPiyuRescatada: {fileID: 2800000, guid: 4c5e28c62e3356e39a460062c0c27cb8, type: 3}
+  escenaIguana: {fileID: 2800000, guid: abe7b1da6f3078c01a032604ac837990, type: 3}
+  escenaBandido: {fileID: 2800000, guid: 1ca02019c46571310881744e671d8e02, type: 3}

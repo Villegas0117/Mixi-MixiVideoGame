@@ -1,0 +1,1265 @@
+{
+  "tipo": "Derivados tecnicos de concept art; NO generacion IA; NO arte final ni animacion completa.",
+  "referencias_inspeccionadas": 15,
+  "revision_visual": "15 originales y Atlas_Revision.png inspeccionados; corregidos solapamientos de Chipotle, sombras y huecos de jaula.",
+  "remuestreo": "NEAREST",
+  "alpha": "Binaria, sin fondo ni labels; blanco interior conectado a silueta preservado.",
+  "integracion": "No se ejecuta Unity ni se crean metas. Recomendado Sprite 2D, Point, sin compresion, PPU comun a validar en escena. Lienzos por familia: personajes 160x128 (iguana192x128), enemigos160x160, jefes256x160, objetos96x96.",
+  "limites": "No se inventan regiones ocultas ni se repara corte original. Escala nativa comun evita igualar artificialmente salto/poses; las diferencias de tamano conceptuales se registran, no se ocultan.",
+  "hojas": [
+    "Assets/Arte/Personajes/ChipotleReferencia/Chipotle_5Poses.png",
+    "Assets/Arte/Personajes/Piyu/Piyu_4Estados.png",
+    "Assets/Arte/Enemigos/Bandido/Bandido_3Variantes.png",
+    "Assets/Arte/Enemigos/Monaguillo/Monaguillo_2Poses.png"
+  ],
+  "preview": "Assets/Arte/Personajes/ChipotleReferencia/Atlas_Revision.png",
+  "activos": [
+    {
+      "nombre": "Chipotle_Idle",
+      "ruta": "Assets/Arte/Personajes/ChipotleReferencia/Chipotle_Idle.png",
+      "fuente_alpha": "Assets/Arte/Personajes/ChipotleReferencia/FuenteAlpha/Chipotle_Idle.png",
+      "procedencia": "docs/referencias/personajes/15_Chipotle_Concept_Art.jpg",
+      "sha256_fuente": "90a15ff80d3367bd1e7dbbc44f4e471f9b3b5029d86bb2f710e408e342e7107c",
+      "recorte_solicitado": [
+        7,
+        89,
+        75,
+        165
+      ],
+      "limites_alpha_fuente": [
+        10,
+        94,
+        71,
+        165
+      ],
+      "dimensiones_fuente": [
+        61,
+        71
+      ],
+      "dimensiones_pose": [
+        61,
+        71
+      ],
+      "lienzo": [
+        160,
+        128
+      ],
+      "posicion_superior_izquierda": [
+        49,
+        49
+      ],
+      "escala_uniforme_desde_fuente": 1.0,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 120,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.0625
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Fallback conceptual, NO ciclo animado. Escala unica 1:1 para las cinco poses; rostro hacia derecha. Salto conserva 24 px de elevacion, no se iguala su altura a idle.",
+      "variacion_bbox_respecto_idle": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "nombre": "Chipotle_Caminar",
+      "ruta": "Assets/Arte/Personajes/ChipotleReferencia/Chipotle_Caminar.png",
+      "fuente_alpha": "Assets/Arte/Personajes/ChipotleReferencia/FuenteAlpha/Chipotle_Caminar.png",
+      "procedencia": "docs/referencias/personajes/15_Chipotle_Concept_Art.jpg",
+      "sha256_fuente": "90a15ff80d3367bd1e7dbbc44f4e471f9b3b5029d86bb2f710e408e342e7107c",
+      "recorte_solicitado": [
+        77,
+        89,
+        148,
+        165
+      ],
+      "limites_alpha_fuente": [
+        78,
+        94,
+        145,
+        162
+      ],
+      "dimensiones_fuente": [
+        67,
+        68
+      ],
+      "dimensiones_pose": [
+        67,
+        68
+      ],
+      "lienzo": [
+        160,
+        128
+      ],
+      "posicion_superior_izquierda": [
+        46,
+        52
+      ],
+      "escala_uniforme_desde_fuente": 1.0,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 120,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.0625
+      ],
+      "semillas_fondo_fuente": [
+        [
+          117,
+          158
+        ]
+      ],
+      "exclusiones_locales": [],
+      "notas": "Fallback conceptual, NO ciclo animado. Escala unica 1:1 para las cinco poses; rostro hacia derecha. Salto conserva 24 px de elevacion, no se iguala su altura a idle.",
+      "variacion_bbox_respecto_idle": [
+        1.0984,
+        0.9577
+      ]
+    },
+    {
+      "nombre": "Chipotle_Correr",
+      "ruta": "Assets/Arte/Personajes/ChipotleReferencia/Chipotle_Correr.png",
+      "fuente_alpha": "Assets/Arte/Personajes/ChipotleReferencia/FuenteAlpha/Chipotle_Correr.png",
+      "procedencia": "docs/referencias/personajes/15_Chipotle_Concept_Art.jpg",
+      "sha256_fuente": "90a15ff80d3367bd1e7dbbc44f4e471f9b3b5029d86bb2f710e408e342e7107c",
+      "recorte_solicitado": [
+        148,
+        93,
+        234,
+        165
+      ],
+      "limites_alpha_fuente": [
+        152,
+        101,
+        231,
+        161
+      ],
+      "dimensiones_fuente": [
+        79,
+        60
+      ],
+      "dimensiones_pose": [
+        79,
+        60
+      ],
+      "lienzo": [
+        160,
+        128
+      ],
+      "posicion_superior_izquierda": [
+        40,
+        60
+      ],
+      "escala_uniforme_desde_fuente": 1.0,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 120,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.0625
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Fallback conceptual, NO ciclo animado. Escala unica 1:1 para las cinco poses; rostro hacia derecha. Salto conserva 24 px de elevacion, no se iguala su altura a idle.",
+      "variacion_bbox_respecto_idle": [
+        1.2951,
+        0.8451
+      ]
+    },
+    {
+      "nombre": "Chipotle_Saltar",
+      "ruta": "Assets/Arte/Personajes/ChipotleReferencia/Chipotle_Saltar.png",
+      "fuente_alpha": "Assets/Arte/Personajes/ChipotleReferencia/FuenteAlpha/Chipotle_Saltar.png",
+      "procedencia": "docs/referencias/personajes/15_Chipotle_Concept_Art.jpg",
+      "sha256_fuente": "90a15ff80d3367bd1e7dbbc44f4e471f9b3b5029d86bb2f710e408e342e7107c",
+      "recorte_solicitado": [
+        235,
+        58,
+        320,
+        145
+      ],
+      "limites_alpha_fuente": [
+        239,
+        63,
+        317,
+        142
+      ],
+      "dimensiones_fuente": [
+        78,
+        79
+      ],
+      "dimensiones_pose": [
+        78,
+        79
+      ],
+      "lienzo": [
+        160,
+        128
+      ],
+      "posicion_superior_izquierda": [
+        41,
+        17
+      ],
+      "escala_uniforme_desde_fuente": 1.0,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 120,
+      "desplazamiento_vertical_pose": -24,
+      "pivote_normalizado": [
+        0.5,
+        0.0625
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [
+        [
+          68,
+          53,
+          84,
+          86
+        ]
+      ],
+      "notas": "Fallback conceptual, NO ciclo animado. Escala unica 1:1 para las cinco poses; rostro hacia derecha. Salto conserva 24 px de elevacion, no se iguala su altura a idle.",
+      "variacion_bbox_respecto_idle": [
+        1.2787,
+        1.1127
+      ]
+    },
+    {
+      "nombre": "Chipotle_Atacar",
+      "ruta": "Assets/Arte/Personajes/ChipotleReferencia/Chipotle_Atacar.png",
+      "fuente_alpha": "Assets/Arte/Personajes/ChipotleReferencia/FuenteAlpha/Chipotle_Atacar.png",
+      "procedencia": "docs/referencias/personajes/15_Chipotle_Concept_Art.jpg",
+      "sha256_fuente": "90a15ff80d3367bd1e7dbbc44f4e471f9b3b5029d86bb2f710e408e342e7107c",
+      "recorte_solicitado": [
+        303,
+        94,
+        393,
+        165
+      ],
+      "limites_alpha_fuente": [
+        305,
+        97,
+        393,
+        164
+      ],
+      "dimensiones_fuente": [
+        88,
+        67
+      ],
+      "dimensiones_pose": [
+        88,
+        67
+      ],
+      "lienzo": [
+        160,
+        128
+      ],
+      "posicion_superior_izquierda": [
+        36,
+        53
+      ],
+      "escala_uniforme_desde_fuente": 1.0,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 120,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.0625
+      ],
+      "semillas_fondo_fuente": [
+        [
+          329,
+          157
+        ]
+      ],
+      "exclusiones_locales": [
+        [
+          0,
+          0,
+          14,
+          12
+        ],
+        [
+          0,
+          13,
+          3,
+          20
+        ]
+      ],
+      "notas": "Fallback conceptual, NO ciclo animado. Escala unica 1:1 para las cinco poses; rostro hacia derecha. Salto conserva 24 px de elevacion, no se iguala su altura a idle.",
+      "variacion_bbox_respecto_idle": [
+        1.4426,
+        0.9437
+      ]
+    },
+    {
+      "nombre": "Piyu_Normal",
+      "ruta": "Assets/Arte/Personajes/Piyu/Piyu_Normal.png",
+      "fuente_alpha": "Assets/Arte/Personajes/Piyu/FuenteAlpha/Piyu_Normal.png",
+      "procedencia": "docs/referencias/personajes/16_Piyu_Concept_Art.jpg",
+      "sha256_fuente": "9d53951a0c63392c445181679d30721027a585dd3995c0cad73f36859e2a760f",
+      "recorte_solicitado": [
+        16,
+        79,
+        94,
+        177
+      ],
+      "limites_alpha_fuente": [
+        21,
+        83,
+        93,
+        176
+      ],
+      "dimensiones_fuente": [
+        72,
+        93
+      ],
+      "dimensiones_pose": [
+        72,
+        93
+      ],
+      "lienzo": [
+        160,
+        128
+      ],
+      "posicion_superior_izquierda": [
+        44,
+        27
+      ],
+      "escala_uniforme_desde_fuente": 1.0,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 120,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.0625
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Chihuahua negra original. Cautiva incluye jaula original: barras ocluyen cuerpo; no se inventa anatomia oculta. Expresiones/efectos afectivos conservados."
+    },
+    {
+      "nombre": "Piyu_Asustada",
+      "ruta": "Assets/Arte/Personajes/Piyu/Piyu_Asustada.png",
+      "fuente_alpha": "Assets/Arte/Personajes/Piyu/FuenteAlpha/Piyu_Asustada.png",
+      "procedencia": "docs/referencias/personajes/16_Piyu_Concept_Art.jpg",
+      "sha256_fuente": "9d53951a0c63392c445181679d30721027a585dd3995c0cad73f36859e2a760f",
+      "recorte_solicitado": [
+        96,
+        94,
+        179,
+        178
+      ],
+      "limites_alpha_fuente": [
+        99,
+        97,
+        176,
+        176
+      ],
+      "dimensiones_fuente": [
+        77,
+        79
+      ],
+      "dimensiones_pose": [
+        77,
+        79
+      ],
+      "lienzo": [
+        160,
+        128
+      ],
+      "posicion_superior_izquierda": [
+        41,
+        41
+      ],
+      "escala_uniforme_desde_fuente": 1.0,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 120,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.0625
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Chihuahua negra original. Cautiva incluye jaula original: barras ocluyen cuerpo; no se inventa anatomia oculta. Expresiones/efectos afectivos conservados."
+    },
+    {
+      "nombre": "Piyu_Cautiva",
+      "ruta": "Assets/Arte/Personajes/Piyu/Piyu_Cautiva.png",
+      "fuente_alpha": "Assets/Arte/Personajes/Piyu/FuenteAlpha/Piyu_Cautiva.png",
+      "procedencia": "docs/referencias/personajes/16_Piyu_Concept_Art.jpg",
+      "sha256_fuente": "9d53951a0c63392c445181679d30721027a585dd3995c0cad73f36859e2a760f",
+      "recorte_solicitado": [
+        185,
+        64,
+        279,
+        175
+      ],
+      "limites_alpha_fuente": [
+        188,
+        67,
+        277,
+        172
+      ],
+      "dimensiones_fuente": [
+        89,
+        105
+      ],
+      "dimensiones_pose": [
+        89,
+        105
+      ],
+      "lienzo": [
+        160,
+        128
+      ],
+      "posicion_superior_izquierda": [
+        35,
+        15
+      ],
+      "escala_uniforme_desde_fuente": 1.0,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 120,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.0625
+      ],
+      "semillas_fondo_fuente": [
+        [
+          261,
+          153
+        ],
+        [
+          205,
+          145
+        ],
+        [
+          225,
+          87
+        ],
+        [
+          236,
+          96
+        ],
+        [
+          246,
+          146
+        ],
+        [
+          219,
+          146
+        ],
+        [
+          217,
+          151
+        ]
+      ],
+      "exclusiones_locales": [],
+      "notas": "Chihuahua negra original. Cautiva incluye jaula original: barras ocluyen cuerpo; no se inventa anatomia oculta. Expresiones/efectos afectivos conservados."
+    },
+    {
+      "nombre": "Piyu_Rescatada",
+      "ruta": "Assets/Arte/Personajes/Piyu/Piyu_Rescatada.png",
+      "fuente_alpha": "Assets/Arte/Personajes/Piyu/FuenteAlpha/Piyu_Rescatada.png",
+      "procedencia": "docs/referencias/personajes/16_Piyu_Concept_Art.jpg",
+      "sha256_fuente": "9d53951a0c63392c445181679d30721027a585dd3995c0cad73f36859e2a760f",
+      "recorte_solicitado": [
+        283,
+        77,
+        379,
+        177
+      ],
+      "limites_alpha_fuente": [
+        287,
+        80,
+        375,
+        176
+      ],
+      "dimensiones_fuente": [
+        88,
+        96
+      ],
+      "dimensiones_pose": [
+        88,
+        96
+      ],
+      "lienzo": [
+        160,
+        128
+      ],
+      "posicion_superior_izquierda": [
+        36,
+        24
+      ],
+      "escala_uniforme_desde_fuente": 1.0,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 120,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.0625
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Chihuahua negra original. Cautiva incluye jaula original: barras ocluyen cuerpo; no se inventa anatomia oculta. Expresiones/efectos afectivos conservados."
+    },
+    {
+      "nombre": "Iguana",
+      "ruta": "Assets/Arte/Personajes/Iguana/Iguana.png",
+      "fuente_alpha": "Assets/Arte/Personajes/Iguana/FuenteAlpha/Iguana.png",
+      "procedencia": "docs/referencias/personajes/17_Iguana.jpg",
+      "sha256_fuente": "76e5e6eb72d9c0c6d063d2b84bee7990bba39dc085944d0598f7dd1bede74e5f",
+      "recorte_solicitado": [
+        125,
+        86,
+        312,
+        202
+      ],
+      "limites_alpha_fuente": [
+        132,
+        90,
+        308,
+        199
+      ],
+      "dimensiones_fuente": [
+        176,
+        109
+      ],
+      "dimensiones_pose": [
+        176,
+        109
+      ],
+      "lienzo": [
+        192,
+        128
+      ],
+      "posicion_superior_izquierda": [
+        8,
+        11
+      ],
+      "escala_uniforme_desde_fuente": 1,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 120,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.0625
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Sprite del NPC original sin titulo ni subtitulo; escala nativa."
+    },
+    {
+      "nombre": "Bandido_Variante_01",
+      "ruta": "Assets/Arte/Enemigos/Bandido/Bandido_Variante_01.png",
+      "fuente_alpha": "Assets/Arte/Enemigos/Bandido/FuenteAlpha/Bandido_Variante_01.png",
+      "procedencia": "docs/referencias/enemigos/18_Secuestradores_Bandidos.jpg",
+      "sha256_fuente": "eb7cdff2a7787b098ce9740084a8a6c4e36e0c595b66980d81eb7b6267c985fc",
+      "recorte_solicitado": [
+        12,
+        0,
+        96,
+        135
+      ],
+      "limites_alpha_fuente": [
+        19,
+        4,
+        96,
+        133
+      ],
+      "dimensiones_fuente": [
+        77,
+        129
+      ],
+      "dimensiones_pose": [
+        77,
+        129
+      ],
+      "lienzo": [
+        160,
+        160
+      ],
+      "posicion_superior_izquierda": [
+        41,
+        23
+      ],
+      "escala_uniforme_desde_fuente": 1,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 152,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.050000000000000044
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Variacion conceptual independiente: rostro/barba/cuerpo cambian. NO frames de un ciclo caminar ni animacion de una identidad. Variante 03 alcanza borde derecho de fuente."
+    },
+    {
+      "nombre": "Bandido_Variante_02",
+      "ruta": "Assets/Arte/Enemigos/Bandido/Bandido_Variante_02.png",
+      "fuente_alpha": "Assets/Arte/Enemigos/Bandido/FuenteAlpha/Bandido_Variante_02.png",
+      "procedencia": "docs/referencias/enemigos/18_Secuestradores_Bandidos.jpg",
+      "sha256_fuente": "eb7cdff2a7787b098ce9740084a8a6c4e36e0c595b66980d81eb7b6267c985fc",
+      "recorte_solicitado": [
+        98,
+        0,
+        168,
+        135
+      ],
+      "limites_alpha_fuente": [
+        100,
+        4,
+        168,
+        133
+      ],
+      "dimensiones_fuente": [
+        68,
+        129
+      ],
+      "dimensiones_pose": [
+        68,
+        129
+      ],
+      "lienzo": [
+        160,
+        160
+      ],
+      "posicion_superior_izquierda": [
+        46,
+        23
+      ],
+      "escala_uniforme_desde_fuente": 1,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 152,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.050000000000000044
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Variacion conceptual independiente: rostro/barba/cuerpo cambian. NO frames de un ciclo caminar ni animacion de una identidad. Variante 03 alcanza borde derecho de fuente."
+    },
+    {
+      "nombre": "Bandido_Variante_03",
+      "ruta": "Assets/Arte/Enemigos/Bandido/Bandido_Variante_03.png",
+      "fuente_alpha": "Assets/Arte/Enemigos/Bandido/FuenteAlpha/Bandido_Variante_03.png",
+      "procedencia": "docs/referencias/enemigos/18_Secuestradores_Bandidos.jpg",
+      "sha256_fuente": "eb7cdff2a7787b098ce9740084a8a6c4e36e0c595b66980d81eb7b6267c985fc",
+      "recorte_solicitado": [
+        169,
+        0,
+        239,
+        135
+      ],
+      "limites_alpha_fuente": [
+        169,
+        11,
+        235,
+        133
+      ],
+      "dimensiones_fuente": [
+        66,
+        122
+      ],
+      "dimensiones_pose": [
+        66,
+        122
+      ],
+      "lienzo": [
+        160,
+        160
+      ],
+      "posicion_superior_izquierda": [
+        47,
+        30
+      ],
+      "escala_uniforme_desde_fuente": 1,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 152,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.050000000000000044
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Variacion conceptual independiente: rostro/barba/cuerpo cambian. NO frames de un ciclo caminar ni animacion de una identidad. Variante 03 alcanza borde derecho de fuente.",
+      "limites_originales": {
+        "borde_derecho_truncado": true
+      }
+    },
+    {
+      "nombre": "Monaguillo_Pose_01",
+      "ruta": "Assets/Arte/Enemigos/Monaguillo/Monaguillo_Pose_01.png",
+      "fuente_alpha": "Assets/Arte/Enemigos/Monaguillo/FuenteAlpha/Monaguillo_Pose_01.png",
+      "procedencia": "docs/referencias/enemigos/20_Monaguillos.jpg",
+      "sha256_fuente": "6a8a0dfd07e4b02810c9084ffd5734a2c8d35efcc60e0c46e850066b6f5fb484",
+      "recorte_solicitado": [
+        5,
+        0,
+        116,
+        134
+      ],
+      "limites_alpha_fuente": [
+        5,
+        4,
+        116,
+        130
+      ],
+      "dimensiones_fuente": [
+        111,
+        126
+      ],
+      "dimensiones_pose": [
+        111,
+        126
+      ],
+      "lienzo": [
+        160,
+        160
+      ],
+      "posicion_superior_izquierda": [
+        24,
+        26
+      ],
+      "escala_uniforme_desde_fuente": 1,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 152,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.050000000000000044
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Dos poses conceptuales, incensario/libro; no ciclo de marcha. Tunica conserva zonas blancas interiores."
+    },
+    {
+      "nombre": "Monaguillo_Pose_02",
+      "ruta": "Assets/Arte/Enemigos/Monaguillo/Monaguillo_Pose_02.png",
+      "fuente_alpha": "Assets/Arte/Enemigos/Monaguillo/FuenteAlpha/Monaguillo_Pose_02.png",
+      "procedencia": "docs/referencias/enemigos/20_Monaguillos.jpg",
+      "sha256_fuente": "6a8a0dfd07e4b02810c9084ffd5734a2c8d35efcc60e0c46e850066b6f5fb484",
+      "recorte_solicitado": [
+        141,
+        0,
+        235,
+        134
+      ],
+      "limites_alpha_fuente": [
+        145,
+        4,
+        232,
+        130
+      ],
+      "dimensiones_fuente": [
+        87,
+        126
+      ],
+      "dimensiones_pose": [
+        87,
+        126
+      ],
+      "lienzo": [
+        160,
+        160
+      ],
+      "posicion_superior_izquierda": [
+        36,
+        26
+      ],
+      "escala_uniforme_desde_fuente": 1,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 152,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.050000000000000044
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Dos poses conceptuales, incensario/libro; no ciclo de marcha. Tunica conserva zonas blancas interiores."
+    },
+    {
+      "nombre": "Vagabundo",
+      "ruta": "Assets/Arte/Jefes/Vagabundo/Vagabundo.png",
+      "fuente_alpha": "Assets/Arte/Jefes/Vagabundo/FuenteAlpha/Vagabundo.png",
+      "procedencia": "docs/referencias/jefes/JefeNivel1Vagabundo.jpg",
+      "sha256_fuente": "42072afb25a100eb6c84e0386f0bd9b8ee8efca8005734d02034e34f92f14c8f",
+      "recorte_solicitado": [
+        12,
+        0,
+        164,
+        140
+      ],
+      "limites_alpha_fuente": [
+        27,
+        4,
+        159,
+        140
+      ],
+      "dimensiones_fuente": [
+        132,
+        136
+      ],
+      "dimensiones_pose": [
+        132,
+        136
+      ],
+      "lienzo": [
+        256,
+        160
+      ],
+      "posicion_superior_izquierda": [
+        62,
+        16
+      ],
+      "escala_uniforme_desde_fuente": 1,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 152,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.050000000000000044
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "BUSTO TRUNCADO en borde inferior y posiblemente laterales de la fuente: NO tiene piernas completas, NO apto como cuerpo completo. Se conserva integro todo lo visible sin completar ni inventar. Fidel conserva humo e incensario.",
+      "limites_originales": {
+        "borde_inferior_truncado": true,
+        "cuerpo_completo": false,
+        "reconstruccion": false
+      }
+    },
+    {
+      "nombre": "Fidel",
+      "ruta": "Assets/Arte/Jefes/Fidel/Fidel.png",
+      "fuente_alpha": "Assets/Arte/Jefes/Fidel/FuenteAlpha/Fidel.png",
+      "procedencia": "docs/referencias/jefes/JefeNivel2SacerdoteFidel.jpg",
+      "sha256_fuente": "8d748fa9b379874a292fdd8501c632b0a6e92322b0f75829043ee8ca79357d6f",
+      "recorte_solicitado": [
+        12,
+        0,
+        238,
+        140
+      ],
+      "limites_alpha_fuente": [
+        39,
+        4,
+        233,
+        140
+      ],
+      "dimensiones_fuente": [
+        194,
+        136
+      ],
+      "dimensiones_pose": [
+        194,
+        136
+      ],
+      "lienzo": [
+        256,
+        160
+      ],
+      "posicion_superior_izquierda": [
+        31,
+        16
+      ],
+      "escala_uniforme_desde_fuente": 1,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 152,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.050000000000000044
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "BUSTO TRUNCADO en borde inferior y posiblemente laterales de la fuente: NO tiene piernas completas, NO apto como cuerpo completo. Se conserva integro todo lo visible sin completar ni inventar. Fidel conserva humo e incensario.",
+      "limites_originales": {
+        "borde_inferior_truncado": true,
+        "cuerpo_completo": false,
+        "reconstruccion": false
+      }
+    },
+    {
+      "nombre": "Lider",
+      "ruta": "Assets/Arte/Jefes/Lider/Lider.png",
+      "fuente_alpha": "Assets/Arte/Jefes/Lider/FuenteAlpha/Lider.png",
+      "procedencia": "docs/referencias/jefes/JefeNivel3Secuestradores.jpg",
+      "sha256_fuente": "d0ff2e9c66128b3d2a3bfc2198749b48de72398ac1d7688792df00668b2eed22",
+      "recorte_solicitado": [
+        0,
+        0,
+        220,
+        140
+      ],
+      "limites_alpha_fuente": [
+        4,
+        5,
+        216,
+        140
+      ],
+      "dimensiones_fuente": [
+        212,
+        135
+      ],
+      "dimensiones_pose": [
+        212,
+        135
+      ],
+      "lienzo": [
+        256,
+        160
+      ],
+      "posicion_superior_izquierda": [
+        22,
+        17
+      ],
+      "escala_uniforme_desde_fuente": 1,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 152,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.050000000000000044
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "BUSTO TRUNCADO en borde inferior y posiblemente laterales de la fuente: NO tiene piernas completas, NO apto como cuerpo completo. Se conserva integro todo lo visible sin completar ni inventar. Fidel conserva humo e incensario.",
+      "limites_originales": {
+        "borde_inferior_truncado": true,
+        "cuerpo_completo": false,
+        "reconstruccion": false
+      }
+    },
+    {
+      "nombre": "Pollo",
+      "ruta": "Assets/Arte/Objetos/Pollo/Pollo.png",
+      "fuente_alpha": "Assets/Arte/Objetos/Pollo/FuenteAlpha/Pollo.png",
+      "procedencia": "docs/referencias/objetos/25_Pierna_de_Pollo.jpg",
+      "sha256_fuente": "8ee22f5814c3d51b8eaf2c6efc88f2166324bfe3044511dd77fa73e23bb4b1cd",
+      "recorte_solicitado": [
+        0,
+        0,
+        68,
+        80
+      ],
+      "limites_alpha_fuente": [
+        4,
+        3,
+        68,
+        79
+      ],
+      "dimensiones_fuente": [
+        64,
+        76
+      ],
+      "dimensiones_pose": [
+        64,
+        76
+      ],
+      "lienzo": [
+        96,
+        96
+      ],
+      "posicion_superior_izquierda": [
+        16,
+        12
+      ],
+      "escala_uniforme_desde_fuente": 1,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 88,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.08333333333333337
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Objeto tecnico a escala nativa 1:1. Misma base/lienzo para los siete objetos; no escalado individual que deforme silueta."
+    },
+    {
+      "nombre": "Moneda",
+      "ruta": "Assets/Arte/Objetos/Moneda/Moneda.png",
+      "fuente_alpha": "Assets/Arte/Objetos/Moneda/FuenteAlpha/Moneda.png",
+      "procedencia": "docs/referencias/objetos/26_Moneda.jpg",
+      "sha256_fuente": "a4b6d28d4afb3402021e5bb2635535cd7841948fb6c14cd21390692944ba0a6b",
+      "recorte_solicitado": [
+        0,
+        0,
+        57,
+        69
+      ],
+      "limites_alpha_fuente": [
+        4,
+        4,
+        53,
+        61
+      ],
+      "dimensiones_fuente": [
+        49,
+        57
+      ],
+      "dimensiones_pose": [
+        49,
+        57
+      ],
+      "lienzo": [
+        96,
+        96
+      ],
+      "posicion_superior_izquierda": [
+        23,
+        31
+      ],
+      "escala_uniforme_desde_fuente": 1,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 88,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.08333333333333337
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Objeto tecnico a escala nativa 1:1. Misma base/lienzo para los siete objetos; no escalado individual que deforme silueta."
+    },
+    {
+      "nombre": "Pelo",
+      "ruta": "Assets/Arte/Objetos/Pelo/Pelo.png",
+      "fuente_alpha": "Assets/Arte/Objetos/Pelo/FuenteAlpha/Pelo.png",
+      "procedencia": "docs/referencias/objetos/27_Carga_Bola_de_Pelo.jpg",
+      "sha256_fuente": "4dae74572b4826244fd0538fbb8970df35293ad3662f3213f9dbd168dcb683d8",
+      "recorte_solicitado": [
+        0,
+        0,
+        75,
+        80
+      ],
+      "limites_alpha_fuente": [
+        4,
+        13,
+        59,
+        71
+      ],
+      "dimensiones_fuente": [
+        55,
+        58
+      ],
+      "dimensiones_pose": [
+        55,
+        58
+      ],
+      "lienzo": [
+        96,
+        96
+      ],
+      "posicion_superior_izquierda": [
+        20,
+        30
+      ],
+      "escala_uniforme_desde_fuente": 1,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 88,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.08333333333333337
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Objeto tecnico a escala nativa 1:1. Misma base/lienzo para los siete objetos; no escalado individual que deforme silueta."
+    },
+    {
+      "nombre": "Ropa",
+      "ruta": "Assets/Arte/Objetos/Ropa/Ropa.png",
+      "fuente_alpha": "Assets/Arte/Objetos/Ropa/FuenteAlpha/Ropa.png",
+      "procedencia": "docs/referencias/objetos/28_Ropa_Arrojable.jpg",
+      "sha256_fuente": "e19cff1e6d2c3b33fb54fcbc714c560902e7e639a727acb9a25948b869b4cca5",
+      "recorte_solicitado": [
+        0,
+        0,
+        66,
+        80
+      ],
+      "limites_alpha_fuente": [
+        0,
+        3,
+        57,
+        74
+      ],
+      "dimensiones_fuente": [
+        57,
+        71
+      ],
+      "dimensiones_pose": [
+        57,
+        71
+      ],
+      "lienzo": [
+        96,
+        96
+      ],
+      "posicion_superior_izquierda": [
+        19,
+        17
+      ],
+      "escala_uniforme_desde_fuente": 1,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 88,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.08333333333333337
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Objeto tecnico a escala nativa 1:1. Misma base/lienzo para los siete objetos; no escalado individual que deforme silueta."
+    },
+    {
+      "nombre": "Velocidad",
+      "ruta": "Assets/Arte/Objetos/Velocidad/Velocidad.png",
+      "fuente_alpha": "Assets/Arte/Objetos/Velocidad/FuenteAlpha/Velocidad.png",
+      "procedencia": "docs/referencias/objetos/29_Power_Up_de_Velocidad.jpg",
+      "sha256_fuente": "c88ee49f5905d05cf51a38ab68198a28c62d1d677ccf28663c170aff6e33d4e6",
+      "recorte_solicitado": [
+        0,
+        6,
+        76,
+        77
+      ],
+      "limites_alpha_fuente": [
+        2,
+        17,
+        70,
+        73
+      ],
+      "dimensiones_fuente": [
+        68,
+        56
+      ],
+      "dimensiones_pose": [
+        68,
+        56
+      ],
+      "lienzo": [
+        96,
+        96
+      ],
+      "posicion_superior_izquierda": [
+        14,
+        32
+      ],
+      "escala_uniforme_desde_fuente": 1,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 88,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.08333333333333337
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Objeto tecnico a escala nativa 1:1. Misma base/lienzo para los siete objetos; no escalado individual que deforme silueta."
+    },
+    {
+      "nombre": "Fuerza",
+      "ruta": "Assets/Arte/Objetos/Fuerza/Fuerza.png",
+      "fuente_alpha": "Assets/Arte/Objetos/Fuerza/FuenteAlpha/Fuerza.png",
+      "procedencia": "docs/referencias/objetos/30_Power_Up_de_Fuerza.jpg",
+      "sha256_fuente": "6e45deeee1e5a7e2ddf304c10e28edfd33683d5e5b947b480d557f209e592c05",
+      "recorte_solicitado": [
+        0,
+        4,
+        75,
+        77
+      ],
+      "limites_alpha_fuente": [
+        7,
+        11,
+        67,
+        73
+      ],
+      "dimensiones_fuente": [
+        60,
+        62
+      ],
+      "dimensiones_pose": [
+        60,
+        62
+      ],
+      "lienzo": [
+        96,
+        96
+      ],
+      "posicion_superior_izquierda": [
+        18,
+        26
+      ],
+      "escala_uniforme_desde_fuente": 1,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 88,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.08333333333333337
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Objeto tecnico a escala nativa 1:1. Misma base/lienzo para los siete objetos; no escalado individual que deforme silueta."
+    },
+    {
+      "nombre": "Pista",
+      "ruta": "Assets/Arte/Objetos/Pista/Pista.png",
+      "fuente_alpha": "Assets/Arte/Objetos/Pista/FuenteAlpha/Pista.png",
+      "procedencia": "docs/referencias/objetos/31_Pistas.jpg",
+      "sha256_fuente": "213aec2f67f306ef76b4694f95f1242dc16d20776ae8734f4c8a0d7c3b090501",
+      "recorte_solicitado": [
+        0,
+        0,
+        69,
+        77
+      ],
+      "limites_alpha_fuente": [
+        0,
+        5,
+        58,
+        71
+      ],
+      "dimensiones_fuente": [
+        58,
+        66
+      ],
+      "dimensiones_pose": [
+        58,
+        66
+      ],
+      "lienzo": [
+        96,
+        96
+      ],
+      "posicion_superior_izquierda": [
+        19,
+        22
+      ],
+      "escala_uniforme_desde_fuente": 1,
+      "volteado_horizontal": false,
+      "base_px_desde_arriba": 88,
+      "desplazamiento_vertical_pose": 0,
+      "pivote_normalizado": [
+        0.5,
+        0.08333333333333337
+      ],
+      "semillas_fondo_fuente": [],
+      "exclusiones_locales": [],
+      "notas": "Objeto tecnico a escala nativa 1:1. Misma base/lienzo para los siete objetos; no escalado individual que deforme silueta."
+    }
+  ]
+}

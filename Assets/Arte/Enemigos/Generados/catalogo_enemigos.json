@@ -1,0 +1,54 @@
+{
+  "tipo": "generacion IA gpt-image-1.5 guiada por referencias + normalizacion tecnica",
+  "origen": "/home/eber/.openclaw/media/tool-image-generation/enemigos_animacion_visual---dcb95034-65d9-4792-b2c2-7fce3f1dcd63.png",
+  "sprites": [
+    {
+      "nombre": "Bandido",
+      "estado": "Idle",
+      "escala": 0.3,
+      "base": 148
+    },
+    {
+      "nombre": "Bandido",
+      "estado": "Walk1",
+      "escala": 0.3,
+      "base": 148
+    },
+    {
+      "nombre": "Bandido",
+      "estado": "Walk2",
+      "escala": 0.3,
+      "base": 148
+    },
+    {
+      "nombre": "Bandido",
+      "estado": "Attack",
+      "escala": 0.3,
+      "base": 148
+    },
+    {
+      "nombre": "Monaguillo",
+      "estado": "Idle",
+      "escala": 0.3,
+      "base": 148
+    },
+    {
+      "nombre": "Monaguillo",
+      "estado": "Walk1",
+      "escala": 0.3,
+      "base": 148
+    },
+    {
+      "nombre": "Monaguillo",
+      "estado": "Walk2",
+      "escala": 0.3,
+      "base": 148
+    },
+    {
+      "nombre": "Monaguillo",
+      "estado": "Attack",
+      "escala": 0.3,
+      "base": 148
+    }
+  ]
+}

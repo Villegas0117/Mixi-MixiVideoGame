@@ -19,6 +19,8 @@ public sealed class MovimientoJugador : MonoBehaviour
     private Rigidbody2D cuerpo;
     private CapsuleCollider2D colisionador;
     private readonly ContactPoint2D[] contactos = new ContactPoint2D[16];
+    public float MultiplicadorVelocidad { get; set; } = 1f;
+    public float Direccion { get; private set; } = 1f;
     public bool EnSuelo { get; private set; }
 
     private void Awake()
@@ -32,8 +34,9 @@ public sealed class MovimientoJugador : MonoBehaviour
     {
         ActualizarSuelo();
         float horizontal = entrada.Horizontal;
+        if (Mathf.Abs(horizontal) > 0.01f) Direccion = Mathf.Sign(horizontal);
         Vector2 velocidad = cuerpo.linearVelocity;
-        velocidad.x = horizontal * (entrada.Corriendo ? velocidadCorrer : velocidadCaminar);
+        velocidad.x = horizontal * (entrada.Corriendo ? velocidadCorrer : velocidadCaminar) * MultiplicadorVelocidad;
         // Consumir siempre: una pulsacion en el aire no queda retenida hasta aterrizar.
         if (entrada.ConsumirSalto() && EnSuelo)
         {

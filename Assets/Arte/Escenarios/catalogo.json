@@ -1,0 +1,672 @@
+[
+  {
+    "nombre": "Casa_Chipotle",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Casa_Chipotle.png",
+    "ancho": 458,
+    "alto": 275,
+    "categoria": "edificio",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel1ConceptoBackground.jpg.",
+    "notas": "Ancho 7-9 unidades. Macetas y fragmento de banca adheridos; tapar extremo derecho con banca/prop al ensamblar. Fachada izquierda cortada por encuadre original. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Fachada_Barrio",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Fachada_Barrio.png",
+    "ancho": 231,
+    "alto": 151,
+    "categoria": "edificio",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel1ConceptoBackground.jpg.",
+    "notas": "Muro rojizo con grafiti diegetico y fragmento de banca a izquierda: superponer banca para disimular corte. Ancho 4-5 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Entrada_Parque",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Entrada_Parque.png",
+    "ancho": 294,
+    "alto": 202,
+    "categoria": "edificio",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel1ConceptoBackground.jpg.",
+    "notas": "Arco y pilares con vano transparente. Reja detras; ancho 6-8 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Reja_Parque",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Reja_Parque.png",
+    "ancho": 194,
+    "alto": 72,
+    "categoria": "cerca",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel1ConceptoBackground.jpg.",
+    "notas": "Modulo contextual: vegetacion entre barras aun conservada. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Arbol_Barrio",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Arbol_Barrio.png",
+    "ancho": 458,
+    "alto": 275,
+    "categoria": "vegetacion",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel1ConceptoBackground.jpg.",
+    "notas": "Copa truncada arriba por original: ocultar borde fuera de camara. Ancho 8-10 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Arbol_Parque",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Arbol_Parque.png",
+    "ancho": 180,
+    "alto": 176,
+    "categoria": "vegetacion",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel1ConceptoBackground.jpg.",
+    "notas": "Pequeñas porciones de cielo entre ramas conservadas. Ancho 3-5 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Banca",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Banca.png",
+    "ancho": 200,
+    "alto": 88,
+    "categoria": "prop",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel1ConceptoBackground.jpg.",
+    "notas": "Banca verde con gatos pintados en referencia. Ancho 3-4 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Puesto_Elotes",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Puesto_Elotes.png",
+    "ancho": 190,
+    "alto": 184,
+    "categoria": "prop",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel1ConceptoBackground.jpg.",
+    "notas": "Texto ELOTES conservado. Vano con colores contextuales del parque. Ancho 3.5-4.5 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Lampara_Parque",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Lampara_Parque.png",
+    "ancho": 44,
+    "alto": 297,
+    "categoria": "prop",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel1ConceptoBackground.jpg.",
+    "notas": "Farol: altura 4-5 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Basurero",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Basurero.png",
+    "ancho": 69,
+    "alto": 77,
+    "categoria": "prop",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel1ConceptoBackground.jpg.",
+    "notas": "Contenedor verde; ancho 1-1.3 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Callejon_Modulo",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Callejon_Modulo.png",
+    "ancho": 293,
+    "alto": 139,
+    "categoria": "ambiente",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel1ConceptoBackground.jpg.",
+    "notas": "Viñeta secundaria SIN leyenda; vano profundo entre fachadas, NO fondo de todo nivel. Resolucion limitada. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Casa_Interior",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Casa_Interior.png",
+    "ancho": 294,
+    "alto": 133,
+    "categoria": "ambiente",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel1ConceptoBackground.jpg.",
+    "notas": "Viñeta de interior sin leyenda; panel dentro de vano, no background de nivel. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Iglesia_Monumental",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Iglesia_Monumental.png",
+    "ancho": 444,
+    "alto": 412,
+    "categoria": "edificio",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel2ConceptoBackground.jpg.",
+    "notas": "Torres y cruces enteras: NO cortar al ensamblar. Altura 13-17 unidades; ancho 15-19. Cipreses adheridos en base; escalera delante. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Veterinaria",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Veterinaria.png",
+    "ancho": 267,
+    "alto": 399,
+    "categoria": "edificio",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel2ConceptoBackground.jpg.",
+    "notas": "VETERINARIA conservado. Tejado oculto por titular en original: corte bajo titular. Cubrir borde con cornisa auxiliar o fuera de camara. Ancho 6-8 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Arbol_Cementerio",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Arbol_Cementerio.png",
+    "ancho": 516,
+    "alto": 242,
+    "categoria": "vegetacion",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel2ConceptoBackground.jpg.",
+    "notas": "Copa cortada por bordes originales: colocar arriba/derecha fuera de camara. Altura 7-9 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Arbol_Florido",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Arbol_Florido.png",
+    "ancho": 225,
+    "alto": 327,
+    "categoria": "vegetacion",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel2ConceptoBackground.jpg.",
+    "notas": "Copa magenta; tronco parcialmente oculto por farol y columna adheridos. Colocar detras de reja; no es arbol completamente aislado. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Reja_Cementerio",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Reja_Cementerio.png",
+    "ancho": 313,
+    "alto": 97,
+    "categoria": "cerca",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel2ConceptoBackground.jpg.",
+    "notas": "Hierro sobre vegetacion contextual; ancho 5-7 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Lampara_Iglesia",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Lampara_Iglesia.png",
+    "ancho": 47,
+    "alto": 274,
+    "categoria": "prop",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel2ConceptoBackground.jpg.",
+    "notas": "Farol calido; altura 4-5 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Estatua_Plaza",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Estatua_Plaza.png",
+    "ancho": 82,
+    "alto": 241,
+    "categoria": "prop",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel2ConceptoBackground.jpg.",
+    "notas": "Estatua con pedestal; altura 4-5 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Senales_Cementerio",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Senales_Cementerio.png",
+    "ancho": 144,
+    "alto": 214,
+    "categoria": "prop",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel2ConceptoBackground.jpg.",
+    "notas": "Textos del mundo IGLESIA/CEMENTERIO/CENTRO preservados. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Escalera_Iglesia",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Escalera_Iglesia.png",
+    "ancho": 287,
+    "alto": 62,
+    "categoria": "suelo",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel2ConceptoBackground.jpg.",
+    "notas": "Escalera monumental decorativa; no colliders nuevos. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Patio_Arcadas",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Patio_Arcadas.png",
+    "ancho": 304,
+    "alto": 150,
+    "categoria": "ambiente",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel2ConceptoBackground.jpg.",
+    "notas": "Viñeta sin leyendas: patio, fuente y arcadas. Vano de profundidad de 6-8 unidades, no lamina extendida. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Pasaje_Lateral",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Pasaje_Lateral.png",
+    "ancho": 308,
+    "alto": 147,
+    "categoria": "ambiente",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel2ConceptoBackground.jpg.",
+    "notas": "Pasaje secundario sin leyenda; modulo de profundidad para calle. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Almacen_Monumental",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Almacen_Monumental.png",
+    "ancho": 854,
+    "alto": 399,
+    "categoria": "edificio",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel3ConceptoBackground.jpg.",
+    "notas": "ALMACEN N°3 y LIBERTAD PARA TODOS conservados. Techo toca encuadre original: cumbrera incompleta. Alto 12-16 unidades, ancho 24-30. Objetos interiores contextualizan porton. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Torre_Vigilancia",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Torre_Vigilancia.png",
+    "ancho": 85,
+    "alto": 143,
+    "categoria": "edificio",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel3ConceptoBackground.jpg.",
+    "notas": "Ancho 3-4 unidades. Pequeño cielo contextual entre vigas. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Camion_Carga",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Camion_Carga.png",
+    "ancho": 212,
+    "alto": 192,
+    "categoria": "prop",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel3ConceptoBackground.jpg.",
+    "notas": "Camion de carga original, decorativo. Ancho 6-8 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Montacargas",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Montacargas.png",
+    "ancho": 108,
+    "alto": 103,
+    "categoria": "prop",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel3ConceptoBackground.jpg.",
+    "notas": "Decorativo, ancho 2-3 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Cajas_Madera",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Cajas_Madera.png",
+    "ancho": 113,
+    "alto": 120,
+    "categoria": "prop",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel3ConceptoBackground.jpg.",
+    "notas": "Grupo cortado por borde izquierdo original; apoyar contra muro. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Caja_Madera",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Caja_Madera.png",
+    "ancho": 66,
+    "alto": 60,
+    "categoria": "prop",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel3ConceptoBackground.jpg.",
+    "notas": "Caja individual, ancho 1-1.3 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Barril_Azul",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Barril_Azul.png",
+    "ancho": 54,
+    "alto": 72,
+    "categoria": "prop",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel3ConceptoBackground.jpg.",
+    "notas": "Ancho 0.8-1.1 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Barril_Rojo",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Barril_Rojo.png",
+    "ancho": 62,
+    "alto": 92,
+    "categoria": "prop",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel3ConceptoBackground.jpg.",
+    "notas": "Ancho 0.8-1.1 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Barrera_Industrial",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Barrera_Industrial.png",
+    "ancho": 165,
+    "alto": 86,
+    "categoria": "prop",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel3ConceptoBackground.jpg.",
+    "notas": "Barrera amarilla/negra; colocar junto a acceso. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Jaula_Referencia",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Jaula_Referencia.png",
+    "ancho": 116,
+    "alto": 85,
+    "categoria": "prop",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel3ConceptoBackground.jpg.",
+    "notas": "Viñeta jefe; interior oscuro contextual. Resolucion limitada; ancho 2-3 unidades. Auxiliar alpha disponible aparte. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Lampara_Industrial",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Lampara_Industrial.png",
+    "ancho": 44,
+    "alto": 40,
+    "categoria": "prop",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel3ConceptoBackground.jpg.",
+    "notas": "Del panel de detalles SIN etiqueta; ancho 0.6-0.9 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Poste_Reflectores",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Poste_Reflectores.png",
+    "ancho": 66,
+    "alto": 173,
+    "categoria": "prop",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel3ConceptoBackground.jpg.",
+    "notas": "Reflectores sin cono opaco de luz; alto 3-4 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Callejon_Industrial",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Callejon_Industrial.png",
+    "ancho": 327,
+    "alto": 183,
+    "categoria": "ambiente",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel3ConceptoBackground.jpg.",
+    "notas": "Panel urbano con esquina camion en base: tapar con edificios/cajas. No hay callejon aislado completo. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Cielo_Pixelado",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Cielo_Pixelado.png",
+    "ancho": 512,
+    "alto": 256,
+    "categoria": "cielo",
+    "procedencia": "Auxiliar tecnico Pillow: gradiente escalonado en paleta de referencia.",
+    "notas": "Capa mas lejana, tiled horizontal; no recorte ni IA."
+  },
+  {
+    "nombre": "Cielo_Pixelado",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Cielo_Pixelado.png",
+    "ancho": 512,
+    "alto": 256,
+    "categoria": "cielo",
+    "procedencia": "Auxiliar tecnico Pillow: gradiente escalonado en paleta de referencia.",
+    "notas": "Capa mas lejana, tiled horizontal; no recorte ni IA."
+  },
+  {
+    "nombre": "Cielo_Pixelado",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Cielo_Pixelado.png",
+    "ancho": 512,
+    "alto": 256,
+    "categoria": "cielo",
+    "procedencia": "Auxiliar tecnico Pillow: gradiente escalonado en paleta de referencia.",
+    "notas": "Capa mas lejana, tiled horizontal; no recorte ni IA."
+  },
+  {
+    "nombre": "Montanas_Lejanas",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Montanas_Lejanas.png",
+    "ancho": 384,
+    "alto": 125,
+    "categoria": "fondo",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel1ConceptoBackground.jpg.",
+    "notas": "Montañas nativas; nubes/vegetacion contextual en base. Escala uniforme detras de edificios. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Montanas_Lejanas",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Montanas_Lejanas.png",
+    "ancho": 429,
+    "alto": 138,
+    "categoria": "fondo",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel2ConceptoBackground.jpg.",
+    "notas": "Montañas; cables/papel picado del mundo preservados. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Silueta_Urbana",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Silueta_Urbana.png",
+    "ancho": 512,
+    "alto": 160,
+    "categoria": "fondo",
+    "procedencia": "Auxiliar tecnico pixel art Pillow; no recorte.",
+    "notas": "N3 sin montaña limpia: silueta urbana distante, ancho 25-35 unidades."
+  },
+  {
+    "nombre": "Lapida_Auxiliar",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Lapida_Auxiliar.png",
+    "ancho": 48,
+    "alto": 64,
+    "categoria": "prop",
+    "procedencia": "Auxiliar tecnico pixel art Pillow; NO recorte de pieza existente.",
+    "notas": "No hay lapida aislada legible en fuente; auxiliar funerario. Altura 1.3-1.8 unidades. Sin antialias; escala entera/Point."
+  },
+  {
+    "nombre": "Cruz_Cementerio_Auxiliar",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Cruz_Cementerio_Auxiliar.png",
+    "ancho": 48,
+    "alto": 64,
+    "categoria": "prop",
+    "procedencia": "Auxiliar tecnico pixel art Pillow; NO recorte de pieza existente.",
+    "notas": "Grupos de lapidas detras de reja; altura 1.3-1.8 unidades. Sin antialias; escala entera/Point."
+  },
+  {
+    "nombre": "Escuela_Urbana_Auxiliar",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Escuela_Urbana_Auxiliar.png",
+    "ancho": 256,
+    "alto": 160,
+    "categoria": "edificio",
+    "procedencia": "Auxiliar tecnico pixel art Pillow; NO recorte de pieza existente.",
+    "notas": "Escuela NO identificada en fuente; arquitectura institucional auxiliar sin rotulo inventado. Ancho 9-12 unidades. Sin antialias; escala entera/Point."
+  },
+  {
+    "nombre": "Callejon_Marco_Auxiliar",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Callejon_Marco_Auxiliar.png",
+    "ancho": 256,
+    "alto": 192,
+    "categoria": "edificio",
+    "procedencia": "Auxiliar tecnico pixel art Pillow; NO recorte de pieza existente.",
+    "notas": "Vano central transparente: skyline detras y suelo aparte. Ancho 10-14 unidades; no panel completo. Sin antialias; escala entera/Point."
+  },
+  {
+    "nombre": "Jaula_Abierta_Alpha_Auxiliar",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Jaula_Abierta_Alpha_Auxiliar.png",
+    "ancho": 96,
+    "alto": 80,
+    "categoria": "prop",
+    "procedencia": "Auxiliar tecnico pixel art Pillow; NO recorte de pieza existente.",
+    "notas": "Version tecnica transparente entre barrotes. Recorte referencia aparte. Ancho 2.5-4 unidades. Sin antialias; escala entera/Point."
+  },
+  {
+    "nombre": "Reja_Alpha_Auxiliar",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Reja_Alpha_Auxiliar.png",
+    "ancho": 192,
+    "alto": 96,
+    "categoria": "cerca",
+    "procedencia": "Auxiliar tecnico pixel art Pillow; NO recorte de pieza existente.",
+    "notas": "Modulo hierro limpio de apoyo: 4-6 unidades ancho. Recorte contextual original disponible aparte. Sin antialias; escala entera/Point."
+  },
+  {
+    "nombre": "Reja_Alpha_Auxiliar",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Reja_Alpha_Auxiliar.png",
+    "ancho": 192,
+    "alto": 96,
+    "categoria": "cerca",
+    "procedencia": "Auxiliar tecnico pixel art Pillow; NO recorte de pieza existente.",
+    "notas": "Modulo hierro limpio de apoyo: 4-6 unidades ancho. Recorte contextual original disponible aparte. Sin antialias; escala entera/Point."
+  },
+  {
+    "nombre": "Suelo_Tile",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Suelo_Tile.png",
+    "ancho": 128,
+    "alto": 64,
+    "categoria": "suelo",
+    "procedencia": "Auxiliar tecnico tiled pixel art Pillow, paleta de referencia.",
+    "notas": "Repetir horizontal SIN estirar; 128px/tile; ancho sugerido 3-4 unidades. PPU y colliders pertenecen a integracion Unity."
+  },
+  {
+    "nombre": "Plataforma_Tile",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Plataforma_Tile.png",
+    "ancho": 128,
+    "alto": 24,
+    "categoria": "plataforma",
+    "procedencia": "Auxiliar tecnico tiled pixel art Pillow, paleta de referencia.",
+    "notas": "Repetir horizontal SIN estirar; 128px/tile; ancho sugerido 3-4 unidades. PPU y colliders pertenecen a integracion Unity."
+  },
+  {
+    "nombre": "Suelo_Tile",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Suelo_Tile.png",
+    "ancho": 128,
+    "alto": 64,
+    "categoria": "suelo",
+    "procedencia": "Auxiliar tecnico tiled pixel art Pillow, paleta de referencia.",
+    "notas": "Repetir horizontal SIN estirar; 128px/tile; ancho sugerido 3-4 unidades. PPU y colliders pertenecen a integracion Unity."
+  },
+  {
+    "nombre": "Plataforma_Tile",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Plataforma_Tile.png",
+    "ancho": 128,
+    "alto": 24,
+    "categoria": "plataforma",
+    "procedencia": "Auxiliar tecnico tiled pixel art Pillow, paleta de referencia.",
+    "notas": "Repetir horizontal SIN estirar; 128px/tile; ancho sugerido 3-4 unidades. PPU y colliders pertenecen a integracion Unity."
+  },
+  {
+    "nombre": "Suelo_Tile",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Suelo_Tile.png",
+    "ancho": 128,
+    "alto": 64,
+    "categoria": "suelo",
+    "procedencia": "Auxiliar tecnico tiled pixel art Pillow, paleta de referencia.",
+    "notas": "Repetir horizontal SIN estirar; 128px/tile; ancho sugerido 3-4 unidades. PPU y colliders pertenecen a integracion Unity."
+  },
+  {
+    "nombre": "Plataforma_Tile",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Plataforma_Tile.png",
+    "ancho": 128,
+    "alto": 24,
+    "categoria": "plataforma",
+    "procedencia": "Auxiliar tecnico tiled pixel art Pillow, paleta de referencia.",
+    "notas": "Repetir horizontal SIN estirar; 128px/tile; ancho sugerido 3-4 unidades. PPU y colliders pertenecen a integracion Unity."
+  },
+  {
+    "nombre": "TerrenoLejano_Auxiliar",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/TerrenoLejano_Auxiliar.png",
+    "ancho": 128,
+    "alto": 96,
+    "categoria": "suelo lejano",
+    "procedencia": "Dibujo tecnico procedural con Pillow, paleta del nivel, NO generacion IA.",
+    "notas": "Script Tools/Arte/refinar_composicion.py; capa tras decoracion, sin collider."
+  },
+  {
+    "nombre": "TerrenoLejano_Auxiliar",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/TerrenoLejano_Auxiliar.png",
+    "ancho": 128,
+    "alto": 96,
+    "categoria": "suelo lejano",
+    "procedencia": "Dibujo tecnico procedural con Pillow, paleta del nivel, NO generacion IA.",
+    "notas": "Script Tools/Arte/refinar_composicion.py; capa tras decoracion, sin collider."
+  },
+  {
+    "nombre": "TerrenoLejano_Auxiliar",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/TerrenoLejano_Auxiliar.png",
+    "ancho": 128,
+    "alto": 96,
+    "categoria": "suelo lejano",
+    "procedencia": "Dibujo tecnico procedural con Pillow, paleta del nivel, NO generacion IA.",
+    "notas": "Script Tools/Arte/refinar_composicion.py; capa tras decoracion, sin collider."
+  },
+  {
+    "nombre": "Callejon_Modulo_V2",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Callejon_Modulo_V2.png",
+    "ancho": 293,
+    "alto": 139,
+    "categoria": "ambiente",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel1ConceptoBackground.jpg.",
+    "notas": "Callejon_Modulo: variante generada (espejo/viraje de color) para romper repeticion en plataformas. Viñeta secundaria SIN leyenda; vano profundo entre fachadas, NO fondo de todo nivel. Resolucion limitada. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Casa_Chipotle_V2",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Casa_Chipotle_V2.png",
+    "ancho": 458,
+    "alto": 275,
+    "categoria": "edificio",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel1ConceptoBackground.jpg.",
+    "notas": "Casa_Chipotle: variante generada (espejo/viraje de color) para romper repeticion en plataformas. Ancho 7-9 unidades. Macetas y fragmento de banca adheridos; tapar extremo derecho con banca/prop al ensamblar. Fachada izquierda cortada por encuadre original. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Fachada_Barrio_V2",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Fachada_Barrio_V2.png",
+    "ancho": 231,
+    "alto": 151,
+    "categoria": "edificio",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel1ConceptoBackground.jpg.",
+    "notas": "Fachada_Barrio: variante generada (espejo/viraje de color) para romper repeticion en plataformas. Muro rojizo con grafiti diegetico y fragmento de banca a izquierda: superponer banca para disimular corte. Ancho 4-5 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Fachada_Barrio_V3",
+    "nivel": 1,
+    "ruta": "Assets/Arte/Escenarios/Nivel1/Fachada_Barrio_V3.png",
+    "ancho": 231,
+    "alto": 151,
+    "categoria": "edificio",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel1ConceptoBackground.jpg.",
+    "notas": "Fachada_Barrio: variante generada (espejo/viraje de color) para romper repeticion en plataformas. Muro rojizo con grafiti diegetico y fragmento de banca a izquierda: superponer banca para disimular corte. Ancho 4-5 unidades. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Iglesia_Monumental_V2",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Iglesia_Monumental_V2.png",
+    "ancho": 444,
+    "alto": 412,
+    "categoria": "edificio",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel2ConceptoBackground.jpg.",
+    "notas": "Iglesia_Monumental: variante generada (espejo/viraje de color) para romper repeticion en plataformas. Torres y cruces enteras: NO cortar al ensamblar. Altura 13-17 unidades; ancho 15-19. Cipreses adheridos en base; escalera delante. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Pasaje_Lateral_V2",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Pasaje_Lateral_V2.png",
+    "ancho": 308,
+    "alto": 147,
+    "categoria": "ambiente",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel2ConceptoBackground.jpg.",
+    "notas": "Pasaje_Lateral: variante generada (espejo/viraje de color) para romper repeticion en plataformas. Pasaje secundario sin leyenda; modulo de profundidad para calle. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Patio_Arcadas_V3",
+    "nivel": 2,
+    "ruta": "Assets/Arte/Escenarios/Nivel2/Patio_Arcadas_V3.png",
+    "ancho": 304,
+    "alto": 150,
+    "categoria": "ambiente",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel2ConceptoBackground.jpg.",
+    "notas": "Patio_Arcadas: variante generada (espejo/viraje de color) para romper repeticion en plataformas. Viñeta sin leyendas: patio, fuente y arcadas. Vano de profundidad de 6-8 unidades, no lamina extendida. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Callejon_Industrial_V2",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Callejon_Industrial_V2.png",
+    "ancho": 327,
+    "alto": 183,
+    "categoria": "ambiente",
+    "procedencia": "Recorte poligonal de docs/referencias/escenarios/Nivel3ConceptoBackground.jpg.",
+    "notas": "Callejon_Industrial: variante generada (espejo/viraje de color) para romper repeticion en plataformas. Panel urbano con esquina camion en base: tapar con edificios/cajas. No hay callejon aislado completo. Nativo; alpha binario; pivot centro inferior; sin titular/footer editorial."
+  },
+  {
+    "nombre": "Escuela_Urbana_Auxiliar_V2",
+    "nivel": 3,
+    "ruta": "Assets/Arte/Escenarios/Nivel3/Escuela_Urbana_Auxiliar_V2.png",
+    "ancho": 256,
+    "alto": 160,
+    "categoria": "edificio",
+    "procedencia": "Auxiliar tecnico pixel art Pillow; NO recorte de pieza existente.",
+    "notas": "Escuela_Urbana_Auxiliar: variante generada (espejo/viraje de color) para romper repeticion en plataformas. Escuela NO identificada en fuente; arquitectura institucional auxiliar sin rotulo inventado. Ancho 9-12 unidades. Sin antialias; escala entera/Point."
+  }
+]

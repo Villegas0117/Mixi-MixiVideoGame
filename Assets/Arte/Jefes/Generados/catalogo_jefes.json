@@ -1,0 +1,42 @@
+{
+  "tipo": "IA gpt-image-1.5, extension de cuerpo guiada por tres refs + normalizacion tecnica",
+  "origen": "/home/eber/.openclaw/media/tool-image-generation/jefes_cuerpo_completo_visual---bd03b7ae-d651-4103-8d7c-3870fba59fd8.png",
+  "sprites": [
+    {
+      "personaje": "Vagabundo",
+      "estado": "Idle",
+      "escala_comun": 0.3,
+      "base": 160
+    },
+    {
+      "personaje": "Fidel",
+      "estado": "Idle",
+      "escala_comun": 0.3,
+      "base": 160
+    },
+    {
+      "personaje": "Lider",
+      "estado": "Idle",
+      "escala_comun": 0.3,
+      "base": 160
+    },
+    {
+      "personaje": "Vagabundo",
+      "estado": "Attack",
+      "escala_comun": 0.3,
+      "base": 160
+    },
+    {
+      "personaje": "Fidel",
+      "estado": "Attack",
+      "escala_comun": 0.3,
+      "base": 160
+    },
+    {
+      "personaje": "Lider",
+      "estado": "Attack",
+      "escala_comun": 0.3,
+      "base": 160
+    }
+  ]
+}

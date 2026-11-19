@@ -1,0 +1,306 @@
+{
+  "origen": "/home/eber/.openclaw/media/tool-image-generation/chipotle_animaciones_visual---84ac8dc2-0b14-4bcd-9a4d-1f532bdf0f60.png",
+  "tipo": "generacion IA gpt-image-1.5 guiada por concept art + corte y normalizacion tecnicos",
+  "frames": [
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Idle_00.png",
+      "estado": "Idle",
+      "frame": 0,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Idle_01.png",
+      "estado": "Idle",
+      "frame": 1,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Idle_02.png",
+      "estado": "Idle",
+      "frame": 2,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Idle_03.png",
+      "estado": "Idle",
+      "frame": 3,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Idle_04.png",
+      "estado": "Idle",
+      "frame": 4,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Idle_05.png",
+      "estado": "Idle",
+      "frame": 5,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Walk_00.png",
+      "estado": "Walk",
+      "frame": 0,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Walk_01.png",
+      "estado": "Walk",
+      "frame": 1,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Walk_02.png",
+      "estado": "Walk",
+      "frame": 2,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Walk_03.png",
+      "estado": "Walk",
+      "frame": 3,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Walk_04.png",
+      "estado": "Walk",
+      "frame": 4,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Walk_05.png",
+      "estado": "Walk",
+      "frame": 5,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Run_00.png",
+      "estado": "Run",
+      "frame": 0,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Run_01.png",
+      "estado": "Run",
+      "frame": 1,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Run_02.png",
+      "estado": "Run",
+      "frame": 2,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Run_03.png",
+      "estado": "Run",
+      "frame": 3,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Run_04.png",
+      "estado": "Run",
+      "frame": 4,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Run_05.png",
+      "estado": "Run",
+      "frame": 5,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Jump_00.png",
+      "estado": "Jump",
+      "frame": 0,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Jump_01.png",
+      "estado": "Jump",
+      "frame": 1,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Jump_02.png",
+      "estado": "Jump",
+      "frame": 2,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Jump_03.png",
+      "estado": "Jump",
+      "frame": 3,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Jump_04.png",
+      "estado": "Jump",
+      "frame": 4,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Jump_05.png",
+      "estado": "Jump",
+      "frame": 5,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Attack_00.png",
+      "estado": "Attack",
+      "frame": 0,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Attack_01.png",
+      "estado": "Attack",
+      "frame": 1,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Attack_02.png",
+      "estado": "Attack",
+      "frame": 2,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Attack_03.png",
+      "estado": "Attack",
+      "frame": 3,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Attack_04.png",
+      "estado": "Attack",
+      "frame": 4,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "ruta": "Assets/Arte/Personajes/Chipotle/Chipotle_Attack_05.png",
+      "estado": "Attack",
+      "frame": 5,
+      "escala": 0.45,
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    }
+  ]
+}

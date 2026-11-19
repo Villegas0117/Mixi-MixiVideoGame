@@ -10,10 +10,21 @@ public sealed class EntradaJugador : MonoBehaviour
     private InputAction saltar;
     private InputAction correr;
     private bool saltoPendiente;
+    private InputAction garra, pelo, lanzar, interactuar, mochila, pausa;
+    public bool Bloqueada { get; set; }
+    public bool GarraPulsada => !Bloqueada && garra != null && garra.WasPressedThisFrame();
+    public bool PeloPulsado => !Bloqueada && pelo != null && pelo.WasPressedThisFrame();
+    public bool PeloSoltado => !Bloqueada && pelo != null && pelo.WasReleasedThisFrame();
+    public bool PeloMantenido => !Bloqueada && pelo != null && pelo.IsPressed();
+    public bool LanzarPulsado => !Bloqueada && lanzar != null && lanzar.WasPressedThisFrame();
+    public bool InteractuarPulsado => !Bloqueada && interactuar != null && interactuar.WasPressedThisFrame();
+    public bool MochilaPulsada => mochila != null && mochila.WasPressedThisFrame();
+    public bool PausaPulsada => pausa != null && pausa.WasPressedThisFrame();
+    public void LimpiarSalto() => saltoPendiente = false;
 
-    public float Horizontal => mover != null && isActiveAndEnabled
+    public float Horizontal => !Bloqueada && mover != null && isActiveAndEnabled
         ? Mathf.Clamp(mover.ReadValue<Vector2>().x, -1f, 1f) : 0f;
-    public bool Corriendo => correr != null && isActiveAndEnabled && correr.IsPressed();
+    public bool Corriendo => !Bloqueada && correr != null && isActiveAndEnabled && correr.IsPressed();
 
     private void OnEnable()
     {
@@ -33,13 +44,20 @@ public sealed class EntradaJugador : MonoBehaviour
         mover.Enable();
         saltar.Enable();
         correr.Enable();
+        garra = Activar("Attack"); pelo = Activar("Hairball"); lanzar = Activar("Throw");
+        interactuar = Activar("Interact"); mochila = Activar("Inventory"); pausa = Activar("Pause");
     }
 
-    private void RegistrarSalto(InputAction.CallbackContext contexto) => saltoPendiente = true;
+    private InputAction Activar(string nombre)
+    {
+        var accion = instancia.FindAction("Player/" + nombre, false);
+        accion?.Enable(); return accion;
+    }
+    private void RegistrarSalto(InputAction.CallbackContext contexto) { if (!Bloqueada) saltoPendiente = true; }
 
     public bool ConsumirSalto()
     {
-        bool solicitado = saltoPendiente;
+        bool solicitado = !Bloqueada && saltoPendiente;
         saltoPendiente = false;
         return solicitado;
     }
